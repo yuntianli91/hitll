@@ -1,0 +1,8 @@
+prefix=/home/yuntian/catkin_ws/src/hitll/dataset_recorder/build/devel
+
+Name: dataset_recorder
+Description: Description of dataset_recorder
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yuntian/catkin_ws/src/hitll/dataset_recorder/build/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: dataset_recorder
+Description: Description of dataset_recorder
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

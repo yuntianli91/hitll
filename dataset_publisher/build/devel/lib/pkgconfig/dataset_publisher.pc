@@ -1,0 +1,8 @@
+prefix=/home/yuntian/catkin_ws/src/dataset_publisher/build/devel
+
+Name: dataset_publisher
+Description: Description of dataset_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yuntian/catkin_ws/src/dataset_publisher/build/devel/lib 
+Requires: 

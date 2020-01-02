@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/opt/ros/melodic/include/**",
+                "/usr/include/**",
+                "/usr/local/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "compilerArgs": [
+                "/opt/ros/melodic/include"
+            ]
+        }
+    ],
+    "version": 4
+}

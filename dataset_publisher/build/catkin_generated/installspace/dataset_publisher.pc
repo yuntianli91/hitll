@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: dataset_publisher
+Description: Description of dataset_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

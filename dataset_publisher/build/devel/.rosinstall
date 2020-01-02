@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yuntian/catkin_ws/src/dataset_publisher/build/devel/setup.sh

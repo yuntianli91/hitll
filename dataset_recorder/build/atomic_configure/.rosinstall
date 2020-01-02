@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yuntian/catkin_ws/src/hitll/dataset_recorder/build/devel/setup.sh
