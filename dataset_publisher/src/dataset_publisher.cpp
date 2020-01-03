@@ -10,9 +10,9 @@ int main(int argc, char** argv){
     hitll_ptr->loadDataset();
     // ================ 注册发布器 ================== //
     image_transport::ImageTransport it(nh);
-    hitll_ptr->_mynt_img_pub = it.advertise("/mynteye/cam0/image_raw", 100);
-    hitll_ptr->_mynt_imu_pub = nh.advertise<sensor_msgs::Imu>("/mynteye/imu0/data_raw", 1000);
-    hitll_ptr->_pix_imu_pub = nh.advertise<sensor_msgs::Imu>("/pixhawk/imu0/data_raw", 1000);
+    hitll_ptr->_mynt_img_pub = it.advertise("/mynteye_ros_node/cam0/image_raw", 100);
+    hitll_ptr->_mynt_imu_pub = nh.advertise<sensor_msgs::Imu>("/mynteye_ros_node/imu0/data_raw", 1000);
+    hitll_ptr->_pix_imu_pub = nh.advertise<sensor_msgs::Imu>("/mavros/imu/data_raw", 1000);
     hitll_ptr->_pix_path_pub = nh.advertise<nav_msgs::Path>("/pixhawk/local_path/path", 500);
     hitll_ptr->_opt_path_pub = nh.advertise<nav_msgs::Path>("/optitrack/local_path/path", 500);
     // ================ 发布数据集 ================== //
