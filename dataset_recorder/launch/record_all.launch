@@ -1,0 +1,6 @@
+<launch>
+    <arg name="dataset_path" default="/home/yuntian/lunarDataset/Handhold" />
+    <node name="dataset_recorder" pkg="dataset_recorder" type="dataset_recorder" >
+        <param name="dataset_path" value="$(arg dataset_path)" />
+    </node>
+</launch>
